@@ -6,6 +6,6 @@ But everyone is welcome to try them out.
 
 
 Programs/.configs in active use
--Niri
--Ghostty
--WayBar
+- Niri
+- Ghostty
+- WayBar
