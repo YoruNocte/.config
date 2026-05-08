@@ -9,4 +9,5 @@ Programs/.configs in active use
 - Niri
 - Ghostty
 - WayBar
+- Btop
 * All other files aren't being used so there not being updated.
