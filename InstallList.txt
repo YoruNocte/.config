@@ -13,6 +13,7 @@ sddm (needs systemctl enable)
 xwayland-satellite
 fastfetch
 btop
+steam
 
 
 ========
