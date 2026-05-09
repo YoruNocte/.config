@@ -1,6 +1,7 @@
 ========
 pacman
 ========
+(Remember to enable multilib in /etc/pacman.conf)
 nautilus (files) 
 ghostty (termal) 
 vim
@@ -11,6 +12,7 @@ waybar
 sddm (needs systemctl enable)
 xwayland-satellite
 fastfetch
+btop
 
 
 ========
@@ -20,6 +22,7 @@ vscodium
 brave-bin
 localsend
 niri
+discord
 
 
 ========
