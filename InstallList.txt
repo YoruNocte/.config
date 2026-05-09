@@ -14,12 +14,12 @@ xwayland-satellite
 fastfetch
 btop
 steam
+codium
 
 
 ========
 AUR
 ========
-vscodium 
 brave-bin
 localsend
 niri
