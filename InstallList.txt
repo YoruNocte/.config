@@ -14,7 +14,6 @@ xwayland-satellite
 fastfetch
 btop
 steam
-codium
 
 
 ========
@@ -24,6 +23,7 @@ brave-bin
 localsend
 niri
 discord
+vscodium
 
 
 ========
