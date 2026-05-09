@@ -5,9 +5,9 @@ pacman
 nautilus (files) 
 ghostty (termal) 
 vim
-torbrowser-lanuncher
+torbrowser-launcher
 filelight 
-fuzzle
+fuzzel
 waybar
 sddm (needs systemctl enable)
 xwayland-satellite
