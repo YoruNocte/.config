@@ -10,4 +10,6 @@ Programs/.configs in active use
 - Ghostty
 - WayBar
 - Btop
+- etc
+- usr/share/sddm
 * All other files aren't being used so there not being updated.
