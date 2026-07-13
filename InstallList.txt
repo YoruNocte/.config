@@ -5,25 +5,28 @@ pacman
 nautilus (files) 
 ghostty (termal) 
 vim
-torbrowser-launcher
+torbrowser-lanuncher
 filelight 
-fuzzel
+fuzzle
 waybar
-sddm (needs systemctl enable)
+sddm (systemctl enable)
 xwayland-satellite
 fastfetch
 btop
 steam
+vlc
+zathura
 
 
 ========
 AUR
 ========
+vscodium 
 brave-bin
 localsend
 niri
 discord
-vscodium
+sddm-silent-theme (conf in etc)
 
 
 ========
