@@ -4,6 +4,7 @@ This is just an extra backup for my configs
 
 Install list
 ========
+
 pacman
 ========
 (Remember to enable multilib in /etc/pacman.conf)
@@ -23,7 +24,6 @@ vlc
 zathura
 
 
-========
 AUR
 ========
 vscodium 
@@ -34,7 +34,6 @@ discord
 sddm-silent-theme (conf in etc)
 
 
-========
 YAY
 ========
 pacman --needed base-devel git
