@@ -1,7 +1,6 @@
 ========
 pacman
 ========
-(Remember to enable multilib in /etc/pacman.conf)
 nautilus (files) 
 ghostty (termal) 
 vim
@@ -26,7 +25,7 @@ brave-bin
 localsend
 niri
 discord
-sddm-silent-theme (conf in etc)
+sddm-silent-theme
 
 
 ========
