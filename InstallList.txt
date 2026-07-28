@@ -15,6 +15,15 @@ btop
 steam
 vlc
 zathura
+network-manager-applet
+gnome-calculator
+gnome-characters
+flatpak
+pipewire 
+wireplumber
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gnome 
 
 
 ========
@@ -36,3 +45,10 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
+
+========
+Flatpak
+========
+flatpak install flathub com.obsproject.Studio
+flatpak install flathub com.obsproject.Studio.Plugin.PipeWireAudioCapture
+flatpak install flathub com.infinipaint.infinipaint
