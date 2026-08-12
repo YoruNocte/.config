@@ -1,10 +1,17 @@
 * {
   border: none;
+  font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
   min-height: 0px;
-  border-radius: 8;
+  border-radius: 0;
   font-size: 14px;
   padding: 0px;
-  background: transparent;
+}
+
+#cpu,
+#memory,
+#temperature,
+#custom-power {
+  color: #f2f2f2;
 }
 
 window#waybar {
@@ -15,32 +22,26 @@ window#waybar {
   background: transparent;
 }
 
-#battery,
+#custom-battery,
 #network,
 #clock,
 #tray,
-#workspaces,
 #pulseaudio {
-  background-image: linear-gradient(to bottom, #27232b 100%);
+    background: rgba(28, 04, 70, 0.7);
 
   margin: 3px;
   margin-right: 0px;
-  padding: 4px 8px;
-  border-radius: 8px;
+  padding: 6px ;
+  border-radius: 14px;
   color: #d8cab8;
 
   border-style: none;
   transition-duration: 120ms;
 }
 
-#clock {
-  margin-right: 6px;
-}
-
 #tray menu {
   background-color: #141216;
   color: #d8cab8;
-  padding: 4px;
 }
 #tray menu menuitem {
   background-image: linear-gradient(to bottom, #27232b 100%);
@@ -52,7 +53,7 @@ window#waybar {
   border-color: #27232b;
 }
 #tray menu menuitem:hover {
-  background-image: linear-gradient(to bottom, #27232b 100%);
+  background-image: linear-gradient(to bottom, #27232b 25%);
   color: #ac82e9;
   font-weight: bold;
 }
@@ -83,13 +84,3 @@ window#waybar {
   color: #fcb167;
 }
 
-#battery {
-  background-color: #222222;
-  color: #d8cab8;
-}
-#battery.warning,
-#battery.critical,
-#battery.urgent {
-  color: #1d2021;
-  background-color: #fc4649;
-}

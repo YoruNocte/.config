@@ -6,7 +6,6 @@
 "margin-top":0,
 
 "modules-left": ["network"],
-"modules-center": ["hyprland/workspaces"],
 "modules-right":  ["tray","pulseaudio","battery","clock"],
 
 "battery": {
@@ -21,22 +20,14 @@
   "format-icons": ["", "", "", "", "", "", ""],
   "tooltip": false
 },
-"hyprland/workspaces": {
-     "sort-by-name": true,
-     "on-click": "activate"
-},
-"hyprland/window": {
-    "max-length": 200,
-    "separate-outputs": true
-},
 "tray": {
     "icon-size": 16,
     "spacing": 6
 },
 "clock": {
     "locale": "C", 
-    "format": " {:%H:%M}",
-    "format-alt": " {:%a, %b %d, %Y}", // Icon: calendar-alt
+    "format": "⏲ {:%H:%M}",
+    "format-alt": "🗓️ {:%a, %b %d, %Y}", 
     "tooltip": false
 },
 "network": {
