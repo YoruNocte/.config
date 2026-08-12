@@ -3,38 +3,50 @@ pacman
 ========
 nautilus (files) 
 ghostty (termal) 
-vim
+neovim
 torbrowser-lanuncher
 filelight 
 fuzzle
-waybar
 sddm (systemctl enable)
 xwayland-satellite
 fastfetch
 btop
 steam
-vlc
 zathura
 network-manager-applet
 gnome-calculator
-gnome-characters
 flatpak
 pipewire 
 wireplumber
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-desktop-portal-gnome 
+waybar
+otf-font-awesome
+pavucontrol
+libreoffice-still
+zathura-pdf-mupdf
+sushi
+gnome-2048
 
 
 ========
 AUR
 ========
-vscodium 
+vscodium-bin
 brave-bin
 localsend
 niri
 discord
 sddm-silent-theme
+
+
+========
+Flatpak
+========
+flatpak install flathub com.obsproject.Studio
+flatpak install flathub com.obsproject.Studio.Plugin.PipeWireAudioCapture
+flatpak install flathub com.infinipaint.infinipaint
 
 
 ========
@@ -45,10 +57,3 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-
-========
-Flatpak
-========
-flatpak install flathub com.obsproject.Studio
-flatpak install flathub com.obsproject.Studio.Plugin.PipeWireAudioCapture
-flatpak install flathub com.infinipaint.infinipaint
