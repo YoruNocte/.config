@@ -13,7 +13,9 @@ fastfetch
 btop
 steam
 zathura
+networkmanager (systemctl enable NetworkManager.service)
 network-manager-applet
+nm-connection-editor
 gnome-calculator
 flatpak
 pipewire 
@@ -28,7 +30,10 @@ libreoffice-still
 zathura-pdf-mupdf
 sushi
 gnome-2048
-
+vulkan-tools
+amberol
+sshfs
+sshpass
 
 ========
 AUR
@@ -56,4 +61,11 @@ pacman --needed base-devel git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+
+
+========
+EXTRA
+========
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Slot-Dark-Icons'
 
